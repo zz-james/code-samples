@@ -2,7 +2,7 @@
 * this is a React component written in typescript
 * it wraps a tooltip library and exports a hook which can be used to quickly add tooltips
 * these tooltips can contain html, links, buttons etc and can track elements that are moving on the page
-* a react component which uses this tooltip simple includes this file then calls the hook with some config e.g.
+* a react component which uses this tooltip simply includes this file, then calls the hook with some config e.g.
 * const { tooltip, setTooltipReferenceElement } = useTooltip({
 *    active: showTooltip,
 *    message: fullNames.join(', '),
@@ -13,7 +13,7 @@
 * this returns 2 things, the tooltip component itself and a function to be used as a ref
 * so in the jsx it is as simple as
 * <span ref={setTooltipReferenceElement}>...</span> 
-* to set the element that triggers the tooltip and for example
+* to set the element that triggers the tooltip and, for example,
 * <div> {tooltip} </div>
 * to set the element where the tooltip will appear (this can be any block element)
 */
