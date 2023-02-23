@@ -1,5 +1,5 @@
-# cognitant.com-code-samples
-3 code samples for cognitant
+code-samples
+3 code samples for recruitment
 
 - small is a very small file
 - medium is a bit more complex
